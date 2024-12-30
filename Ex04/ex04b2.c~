@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int y,m,d,mod;
+  printf("年月日をそれぞれスペースで分けて入力してください");
+  scanf("%d %d %d",&y,&m,&d);
+  mod = (y + (y/4)-(y/100)+(y/400)+(13m+8)/5+d)%7;
+  switch(mod){
+  case 1:
+    printf("");
+    
+    

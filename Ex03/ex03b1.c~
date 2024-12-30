@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+  double a,b,S;
+  printf("三角形の底辺の長さと高さをcmで入力してください：");
+  scanf("%f"&a &b);
+  double S = (a * b) /2;
+  printf("三角形の面積は %f 平方cmです\n",S);
+  return 0;
+}

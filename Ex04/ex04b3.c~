@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+  int m;
+  printf("月を入力して下さい\n");
+  scanf("%d",&m);
+  
