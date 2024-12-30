@@ -1,0 +1,9 @@
+148K	/home/student/s1320182/Prog0/Ex08
+140K	/home/student/s1320182/Prog0/Ex03
+100K	/home/student/s1320182/Prog0/Ex05
+92K	/home/student/s1320182/Prog0/Ex07
+92K	/home/student/s1320182/Prog0/Ex04
+
+<実際に実行したコマンド>
+sshsv212:Ex10 s1320182[58]$ du -hs ~/Prog0/* | sort -hr | head -n 
+5 > ex10a1.txt

@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+  int i,array[15]{1,7,10,18,27,31,42,49,54,50,61,72,88,93};
+  printf("添字を入力してください：\n");
+  scanf("%d",&i);
+  printf("array[%d]=%d",i,array[i]);
+  if(array[i]%3=0)
+    {
+      printf("3の倍数です\n");
+    }
+  else
+    {
+      printf("3の倍数ではありません\n");
+    }
+  return 0;
+}

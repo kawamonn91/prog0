@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int main()
+{
+  int i;
+  int score[240];/*評点データの配列*/
+  int hisr[11];/*11分類*/
+
+  srand((unsigned int)time(NULL)); /*実効の度に異なる乱数を得るための命令*/
+
+  for(i=0;i<240;i++){
+    score[i] = rand() % (100 + 1);
+  }
+  /*分類処理*/
+  for(i=0;i<240;i++){
+    

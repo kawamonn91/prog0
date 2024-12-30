@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int fib[20];
+  fib[0]=1;
+  fib[1]=1;
+  for(i=0;i<=16;i++){
+    fib[i+2]=fib[i+1]+fib[i];
+  }
+  for(i=0;i<=18;i++){
+    printf("%d\n",fib[i]);
+  }
+  return 0;
+}
